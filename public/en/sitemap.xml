@@ -3,7 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blist.vercel.app/en/page/about/</loc>
-    <lastmod>2021-07-15T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blist.vercel.app/en/page/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blist.vercel.app/en/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://blist.vercel.app/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://blist.vercel.app/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="dy"
+                href="https://blist.vercel.app/dy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blist.vercel.app/en/"
+                />
   </url><url>
     <loc>https://blist.vercel.app/en/blog/</loc>
     <lastmod>2021-07-15T00:00:00+00:00</lastmod>
@@ -12,9 +38,6 @@
     <lastmod>2021-07-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blist.vercel.app/en/blog/emoji-support/</loc>
-    <lastmod>2021-07-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blist.vercel.app/en/page/</loc>
     <lastmod>2021-07-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blist.vercel.app/en/tags/</loc>
@@ -38,29 +61,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://blist.vercel.app/en/tags/"
-                />
-  </url><url>
-    <loc>https://blist.vercel.app/en/</loc>
-    <lastmod>2021-07-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://blist.vercel.app/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blist.vercel.app/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="dy"
-                href="https://blist.vercel.app/dy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blist.vercel.app/en/"
                 />
   </url><url>
     <loc>https://blist.vercel.app/en/tags/css/</loc>

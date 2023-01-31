@@ -1,6 +1,6 @@
 ---
-author: Katheryn Fox
-title: Home of Katheryn Fox
+author: CarlDesigner
+title: Blog de Carlos Fajardo - Un simple programador
 date: 2021-07-15
 ---
 
