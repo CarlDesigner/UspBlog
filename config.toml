@@ -80,7 +80,7 @@ DefaultContentLanguageInSubdir = true
 
   # Add support for Table of contents
   # Can be added to a page level also in markdown frontmatter
-  toc = true
+  toc = false
 
   # Hides the thumbnail in post view
   # Thumbnails in home and blog pages will still be shown
