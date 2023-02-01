@@ -5,15 +5,15 @@
     <link>https://blist.vercel.app/page/</link>
     <description>Recent content in Pages on Un simple programador</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blist.vercel.app/page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blist.vercel.app/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Acerca de Mi</title>
       <link>https://blist.vercel.app/page/about/</link>
-      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://blist.vercel.app/page/about/</guid>
-      <description>Written in Gol , Hugo is an open source static site generator available under the Apache Licence 2.0.Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:</description>
+      <description>Soy Carlos Fajardo un programador autodidacta que siempre ha estado interesado en la tecnología y en cómo funcionan las cosas. Después de experimentar con algunos proyectos pequeños, decidí enfocarme en aprender a programar y convertirme en un desarrollador de software. A pesar de no tener una formación formal en la materia, me dediqué a estudiar por mi cuenta y a practicar todo lo que podía.
+A través de mi viaje como autodidacta, he descubierto que la autodisciplina y la persistencia son claves para el éxito.</description>
     </item>
     
   </channel>

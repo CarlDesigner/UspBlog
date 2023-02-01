@@ -5,57 +5,57 @@
     <link>https://blist.vercel.app/</link>
     <description>Recent content on Un simple programador</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blist.vercel.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blist.vercel.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Acerca de Mi</title>
       <link>https://blist.vercel.app/page/about/</link>
-      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://blist.vercel.app/page/about/</guid>
-      <description>Written in Gol , Hugo is an open source static site generator available under the Apache Licence 2.0.Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:</description>
+      <description>Soy Carlos Fajardo un programador autodidacta que siempre ha estado interesado en la tecnología y en cómo funcionan las cosas. Después de experimentar con algunos proyectos pequeños, decidí enfocarme en aprender a programar y convertirme en un desarrollador de software. A pesar de no tener una formación formal en la materia, me dediqué a estudiar por mi cuenta y a practicar todo lo que podía.
+A través de mi viaje como autodidacta, he descubierto que la autodisciplina y la persistencia son claves para el éxito.</description>
     </item>
     
     <item>
-      <title>Emoji Support</title>
+      <title></title>
       <link>https://blist.vercel.app/blog/emoji-support/</link>
-      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blist.vercel.app/blog/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      <description>&lt;!-- Emoji can be enabled in a Hugo project in a number of ways. --&gt;</description>
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
+      <title></title>
       <link>https://blist.vercel.app/blog/markdown-syntax/</link>
-      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blist.vercel.app/blog/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Math Typesetting</title>
+      <title></title>
       <link>https://blist.vercel.app/blog/math-typesetting/</link>
-      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blist.vercel.app/blog/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Placeholder Text</title>
+      <title></title>
       <link>https://blist.vercel.app/blog/placeholder-text/</link>
-      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blist.vercel.app/blog/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Rich Content</title>
+      <title></title>
       <link>https://blist.vercel.app/blog/rich-content/</link>
-      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blist.vercel.app/blog/rich-content/</guid>
       <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Built-in Shortcodes&lt;/a&gt;

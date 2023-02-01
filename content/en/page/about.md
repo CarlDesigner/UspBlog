@@ -7,7 +7,7 @@ keywords: ["about-us", "about-hugo", "contact"]
 type: about
 ---
 
-Soy **Carlos Fajardo** un programador autodidacta y siempre he estado interesado en la tecnología y cómo funcionan las cosas. Después de experimentar con algunos proyectos pequeños, decidí enfocarme en aprender a programar y convertirme en un desarrollador de software. A pesar de no tener una formación formal en la materia, me dediqué a estudiar por mi cuenta y a practicar todo lo que podía.
+Soy **Carlos Fajardo** un programador autodidacta que siempre ha estado interesado en la tecnología y en cómo funcionan las cosas. Después de experimentar con algunos proyectos pequeños, decidí enfocarme en aprender a programar y convertirme en un desarrollador de software. A pesar de no tener una formación formal en la materia, me dediqué a estudiar por mi cuenta y a practicar todo lo que podía.
 
 A través de mi viaje como autodidacta, he descubierto que la autodisciplina y la persistencia son claves para el éxito. He experimentado con diferentes lenguajes de programación y tecnologías, y he encontrado mi pasión por la construcción de aplicaciones web.
 
