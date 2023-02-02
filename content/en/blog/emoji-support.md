@@ -1,49 +1,21 @@
 ---
-# author: "Hugo Authors"
-# title: "Primer post"
-# date: 2021-07-15
-# description: "Guide to emoji usage in Hugo"
-# tags: ["emoji"]
-# thumbnail: https://picsum.photos/id/1050/400/250
+author: "CarlDesigner"
+title: "6 Consejos para aprender a programar si eres autodidacta."
+date: 2023-02-01
+description: "Consejitos para ayudarte a ser porgramador 😉"
+tags: ["emoji"]
+thumbnail: https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
 ---
 
-<!-- Emoji can be enabled in a Hugo project in a number of ways. -->
+Aprender a programar suele ser un proco frustrante al inicio, y más cuando no encuentras los recursos adecuados, Aquí te dejo algunos consejos que puedes considerar si quieres iniciar en la programación siendo un autodidacta.
 
-<!--more-->
+1. **Define tus objetivos:** ¿Por qué quieres aprender a programar? ¿Cuáles son tus metas a largo plazo? Establecer tus objetivos te ayudará a mantenerte enfocado y a elegir el camino correcto para ti.
+2. **Elige un lenguaje de programación:** Existen muchos lenguajes de programación diferentes, cada uno con sus propias fortalezas y aplicaciones. Elige uno que te interese y que se ajuste a tus objetivos.
+3. **Encuentra recursos de aprendizaje:** Hay muchos recursos en línea que puedes usar para aprender a programar, como tutoriales, libros electrónicos y videos en línea. Investiga y encuentra aquellos que te resulten más útiles.
+4. **Practica:** La práctica es la clave para mejorar tus habilidades de programación. Intenta crear pequeños proyectos por tu cuenta y jugar con el código para ver qué puedes hacer.
+5. **Únete a una comunidad:** Una de las mejores maneras de aprender a programar es unirte a una comunidad de programadores. Esto te permitirá hacer preguntas, obtener ayuda y aprender de otros.
+6. **Sé paciente:** Aprender a programar puede ser desafiante a veces, así que sé paciente contigo mismo. Recuerda que todos comienzan desde cero y que tienes tiempo para mejorar tus habilidades.
 
-The [`emojify`](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes).
+Espero que estos consejos te resulten útiles al iniciarte en este maravilloso mundo. **¡Buena suerte y feliz aprendizaje!**
 
-To enable emoji globally, set `enableEmoji` to `true` in your site's [configuration](https://gohugo.io/getting-started/configuration/) and then you can type emoji shorthand codes directly in content files; e.g.
-
-<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
-<br>
-
-The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
-
----
-
-**N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
-
-{{< highlight html >}}
-.emoji {
-font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-}
-{{< /highlight >}}
-
-{{< css.inline >}}
-
-<style>
-.emojify {
-	font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-	font-size: 2rem;
-	vertical-align: middle;
-}
-@media screen and (max-width:650px) {
-  .nowrap {
-    display: block;
-    margin: 25px 0;
-  }
-}
-</style>
-
-{{< /css.inline >}}
+> CarlDesiger - Un simple programador :)
