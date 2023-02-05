@@ -1,7 +1,7 @@
 ---
 author: "CarlDesigner"
 title: "Guia indispensable de HTML5 (HyperText Markup Language)"
-description: "Esta es una guia en la cual conocerás las etiquetas de HTML5 que son indispensables a la hora de desarrollar cualquier sitio web, leela y usala a tu favor 😎."
+description: "Esta es una guia en la cual conocerás las etiquetas de HTML5 que son indispensables a la hora de desarrollar cualquier sitio web, léela y usala a tu favor 😎."
 tags: ["html%", "desarrollo web", "HyperText Markup Language"]
 date: 2023-01-05
 thumbnail: https://firebasestorage.googleapis.com/v0/b/imagesbank-78639.appspot.com/o/html5wallpaper.jpg?alt=media&token=5ce3253d-c530-4197-8189-4fd1edb04c94
