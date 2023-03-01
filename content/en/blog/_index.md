@@ -1,4 +1,0 @@
----
-author: CarlDesigner
-title: Blog
----
