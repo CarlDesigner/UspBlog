@@ -6,12 +6,18 @@ import Themeswitch from "./themeswitch.astro";
 <Container class="mt-10 border-t border-gray-100 dark:border-gray-800">
   <footer class="flex flex-col items-center">
     <div class="text-sm text-center">
-      Copyright © {new Date().getFullYear()} Stablo. All rights reserved.
+      Copyleft &copy; {new Date().getFullYear()} USP. Todos los Izquierdos Reservados.
     </div>
     <div
       class="flex justify-center gap-1 mt-1 text-sm text-center text-gray-500 dark:text-gray-600">
       <span>
         Made by{" "}
+        <a
+          href="https://github.com/CarlDesigner"
+          rel="noopener"
+          target="_blank">
+          CarlDesigner
+        </a>&
         <a
           href="https://web3templates.com/?ref=stablo-astro"
           rel="noopener"
@@ -24,15 +30,15 @@ import Themeswitch from "./themeswitch.astro";
     or Purchase a commercial license from https://web3templates.com
   -->
       </span>
-      <span>&middot;</span>
-      <span>
+      <!-- <span>&middot;</span> -->
+      <!-- <span>
         <a
           href="https://github.com/web3templates/stablo-astro"
           rel="noopener"
           target="_blank">
           Github
         </a>
-      </span>
+      </span> -->
     </div>
     <div class="flex items-center justify-between mt-2">
       <Themeswitch />

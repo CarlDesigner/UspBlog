@@ -26,4 +26,10 @@ export const authors: Props[] = [
     image: "./src/assets/authors/erika.webp",
     bio: "Erika Oliver is a successful entrepreuner. She is the founder of Acme Inc, a bootstrapped business that builds affordable SaaS tools for local news, indie publishers, and other small businesses.",
   },
+  {
+    name: "Carlos Fajardo",
+    slug: "carlos-fajardo",
+    image: "./src/assets/authors/carlos.jpg",
+    bio: "Carlos Fajardo (CarlDesigner) es un Desarrollador de Software autodidacta con mas de 3 años de experiencia en la programación, apasionado por el diseño y construcción de todo tipo de aplicaciones web, autor de varios articulos sobre como aprender a programar y actualmente cursa un pregrado en Ingenieria de Software.",
+  },
 ];
