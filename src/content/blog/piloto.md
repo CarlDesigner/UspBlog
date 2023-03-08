@@ -2,8 +2,8 @@
 title: "Piloto"
 excerpt: "Piloto de prueba."
 publishDate: "2023-03-05T11:39:36.050Z"
-image: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613"
-category: "design"
+image: "https://res.cloudinary.com/do66lfayc/image/upload/v1678234763/BlogUsp/pilot_em6kql.webp"
+category: "test"
 author: "carlos-fajardo"
 tags: [prueba, piloto]
 ---

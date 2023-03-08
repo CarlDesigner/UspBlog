@@ -2,7 +2,7 @@
 import cx from "classnames";
 
 interface Props {
-  theme: "green" | "blue" | "orange" | "purple" | "pink";
+  theme: "green" | "blue" | "orange" | "purple" | "pink" | "white";
 }
 const color = {
   green: "text-emerald-700",
@@ -10,6 +10,7 @@ const color = {
   orange: "text-orange-700",
   purple: "text-purple-600",
   pink: "text-pink-600",
+  white: "text-white-600",
 };
 
 const { theme } = Astro.props;

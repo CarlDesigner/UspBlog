@@ -1,7 +1,7 @@
 export interface Props {
   title: string;
   slug: string;
-  color: "green" | "blue" | "orange" | "purple" | "pink";
+  color: "green" | "blue" | "orange" | "purple" | "pink" | "white";
   description: string;
 }
 export type Category = Props;
@@ -41,5 +41,12 @@ export const categories: Props[] = [
     color: "purple",
     description:
       "Get insights and inspiration from the world of design, with articles covering graphic design, product design, interior design, and more.",
+  },
+  {
+    title: "Test",
+    slug: "test",
+    color: "white",
+    description:
+      "El blanco es un color que transmite pureza, limpieza y elegancia, y es utilizado en una amplia variedad de contextos y diseños.",
   },
 ];
