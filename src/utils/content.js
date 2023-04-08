@@ -11,3 +11,4 @@ export const latestPosts = (
     new Date(b.data.publishDate).valueOf() -
     new Date(a.data.publishDate).valueOf()
 );
+
