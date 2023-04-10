@@ -2,7 +2,6 @@
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import { Image } from "@astrojs/image/components";
-import { authors } from "@data/authors";
 import Pagetitle from "@components/pagetitle.astro";
 import Link from "@components/ui/link.astro";
 ---
@@ -11,53 +10,42 @@ import Link from "@components/ui/link.astro";
   <Container>
     <Pagetitle>
       <Fragment slot="title">Acerca de</Fragment>
-      <Fragment slot="desc">Hola dev 😎 <br> Esta pagina está en construcción, pronto la habilitaremos.</Fragment>
+      <Fragment slot="desc">Hola dev 😎 <br>Permíteme presentarme.</Fragment>
       
     </Pagetitle>
 
-    <!-- <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-1">
-      {
-        authors.slice(0, 3).map((item) => (
-          <div class="group">
-            <div class="w-full aspect-square">
-              <Image
-                src={item.image}
-                format="avif"
-                width={580}
-                height={580}
-                alt="Imagen de Carlos Fajardo"
-                class="w-full h-full object-cover rounded transition  group-hover:-translate-y-1 group-hover:shadow-xl"
-              />
-            </div>
+    <div class="mx-auto max-w-4xl mt-1 py-5">
+      <Image
+        src="src/assets/authors/carlos.jpg"
+        format="avif"
+        width={300}
+        height={300}
+        alt="Imagen de Carlos Fajardo"
+        class="mx-auto block rounded-md"
+      />
+    </div>
 
-            <div class="mt-4 text-center">
-              <h3 class="text-sm text-gray-500"> {item.name}</h3>
-            </div>
-          </div>
-        ))
-      }
-    </div> -->
+    <div class="mx-auto max-w-xl text-justify mt-14">
+      <p class="text-lg leading-relaxed tex-white-600">
+        Soy <strong>Carlos Fajardo</strong>, <strong>Un Simple Programador &#9996;</strong>
+        Cuando empecé a aprender sobre desarrollo web, también lo hice como autodidacta. A través de tutoriales en línea, documentación, y mucha práctica, comencé a entender los conceptos y habilidades necesarias para crear sitios web funcionales y atractivos &#128293;. <br><br>
 
-    <!-- <div class="mx-auto max-w-xl text-justify mt-14">
-      <p class="text-lg leading-relaxed text-gray-600">
-       Somos un pequeño equipo de personas apasionadas por la programación y la enseñanza. Nos encanta compartir nuestros conocimientos y habilidades con otros y ayudarles a aprender a programar. <br><br>
+        El objetivo de este blog es proporcionar recursos útiles y consejos prácticos para aquellos que desean aprender sobre desarrollo web por su cuenta. Empezar a desarrollar la lógica de porgramación a través de una variedad de publicaciones, desde tutoriales y guías hasta consejos y trucos, espero ayudar a los lectores a obtener las habilidades que se necesitan para crear proyectos web emocionantes.<br><br>
+        
+        La iniciativa detrás de este blog es inspirar a las personas a aprender a desarrollar software por su cuenta y a convertirse en autodidactas exitosos. A menudo, las habilidades del desarrollo web pueden ser costosas de aprender en un entorno académico tradicional. Sin embargo, con las herramientas adecuadas y el apoyo adecuado, cualquiera puede aprender y desarrollar habilidades en este campo.<br><br>
+        
+        Por último, mi motivación para escribir este blog es ayudar a las personas a alcanzar sus metas en el mundo de la porgramación. A través de este blog, espero brindar a los futuros programadores las herramientas y el conocimiento que necesitan para crear sitios y aplicaciones web útiles y atractivas. ¡La tecnología cambia constantemente, y aprender a desarrollar software es una habilidad valiosa que puede ayudar a las personas a alcanzar su potencial máximo! &#128640;<br><br>
 
-Somos expertos autodidactas en la construcción de aplicaciones web, hemos trabajado en varios proyectos y tenemos experiencia en diferentes lenguajes de programación y tecnologías web.<br><br>
-
-Nuestro objetivo principal es ayudar a las personas que desean convertirse en programadores y no saben por dónde empezar. Queremos hacer de la programación una disciplina accesible y atractiva para todos.<br><br>
-
-Por medio de nuestro blog, compartimos nuestros conocimientos y experiencias de manera clara y sencilla, explicando los conceptos fundamentales de la programación y brindando recursos útiles para que los estudiantes puedan avanzar en su aprendizaje.<br><br>
-
-Creemos en la importancia de aprender haciendo, por lo que proporcionamos ejemplos y desafíos prácticos para que los lectores puedan aplicar lo que han aprendido en la vida real. Además, estamos siempre disponibles para responder preguntas y brindar apoyo a través de nuestras redes sociales y correo electrónico.<br><br>
-
-Nos encanta enseñar programación y ver cómo los estudiantes se sienten cada vez más seguros y competentes en su aprendizaje. Esperamos poder ayudar a muchos más estudiantes a través de nuestro blog y seguir contribuyendo al mundo de la programación.<br><br>
-
-Únete a nosotros en este viaje hacia una carrera exitosa y satisfactoria en la programación. ¡Estamos emocionados de ver tu crecimiento y logros!
-      </p>
+        Únete a mi en este viaje hacia una carrera exitosa y satisfactoria en la programación. ¡Estoy emocionados de ver tu crecimiento y logros!
+      </p><br>
+      <blockquote>
+        "La programación te enseña a pensar"
+        <cite>Steve Jobs, co-fundador de Apple Inc.</cite>
+      </blockquote>
       <div class="mt-8 text-center">
         <Link href="/contact" style="primary">Contáctanos</Link>
       </div>
-    </div> -->
+    </div>
   
   </Container>
 </Layout>
