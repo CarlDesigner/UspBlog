@@ -38,7 +38,7 @@ import Button from "@components/ui/button.astro";
       Porfavor escriba su correo electrónico.
     </div>
     <div class="invalid-feedback text-red-400 text-sm mt-1">
-      Please provide a valid email address.
+      Indique una dirección de correo electrónico válida.
     </div>
   </div>
   <div class="mb-3">
@@ -91,7 +91,7 @@ import Button from "@components/ui/button.astro";
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
 
-    result.innerHTML = "Sending...";
+    result.innerHTML = "Enviando...";
 
     fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -114,7 +114,7 @@ import Button from "@components/ui/button.astro";
       })
       .catch((error) => {
         console.log(error);
-        result.innerHTML = "Something went wrong!";
+        result.innerHTML = "Algo salió mal :(";
       })
       .then(function () {
         form.reset();
