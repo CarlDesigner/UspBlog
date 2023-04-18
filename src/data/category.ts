@@ -49,4 +49,11 @@ export const categories: Props[] = [
     description:
       "El blanco es un color que transmite pureza, limpieza y elegancia, y es utilizado en una amplia variedad de contextos y diseños.",
   },
+  {
+    title: "Web Development",
+    slug: "web-development",
+    color: "green",
+    description:
+      "Some description",
+  },
 ];
