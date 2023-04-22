@@ -53,7 +53,8 @@ Por ejemplo, si quisieras crear un párrafo con un estilo CSS personalizado, pod
 Estas son las etiquetas más fundamentales en HTML y son necesarias para cualquier página web. 
 
 1. `<!DOCTYPE hmtl>`: Esta etiqueta define la versión del lenguaje de marcado que se está utilizando en la página web. No tiene atributos.
-   
+<br>
+
 2. `<html>`: Esta etiqueta envuelve todo el contenido de la página web y le dice al navegador que el contenido está escrito en HTML. Tiene un atributo opcional llamado "lang" que se utiliza para especificar el idioma de la página.
 por ejemplo: *`lang="es"`* para español, *`lang="en"`* para inglés y así susecivamente, el codigo con este atributo vería así:
 ```html
@@ -61,6 +62,7 @@ por ejemplo: *`lang="es"`* para español, *`lang="en"`* para inglés y así suse
 ```
 
 3. `<head>`: Esta etiqueta se utiliza para contener información que no se muestra directamente en la página web, como metadatos, enlaces a hojas de estilo y scripts. No tiene atributos.
+<br>
 
 4. `meta charset`: La etiqueta *`meta charset`* se utiliza para especificar la codificación de caracteres que se utiliza en el documento HTML, esta etiqueta va dentro de la etiqueta `<head>`.
 El atributo charset indica el conjunto de caracteres que se utiliza para codificar el texto del documento HTML. *`meta charset="UTF-8"`* especifica que se utiliza la codificación UTF-8, que puede representar prácticamente cualquier carácter en Unicode. Esta etiqueta es importante para asegurarse de que los caracteres se muestren correctamente en el navegador y debe estar presente en el encabezado de todos los documentos HTML.
@@ -69,6 +71,7 @@ Así se vería esta etiqueta:
 <meta charset="UTF-8">
 ```
 5. `<title>`: Esta etiqueta se utiliza para definir el título de la página web que se muestra en la pestaña del navegador. No tiene atributos.
+<br>
 
 6. `<body>`: Esta etiqueta envuelve todo el contenido visible de la página web, como texto, imágenes, videos y otros elementos HTML. No tiene atributos.
 
@@ -86,7 +89,7 @@ Es importante tener en cuenta que estas etiquetas básicas son la base de cualqu
   </body>
 </html>
 ```
-Continuemos.. 
+Continuemos...:metal::rocket:
 ## Etiquetas de Texto
 Estas etiquetas se utilizan para mostrar texto en la página web.
 
@@ -96,7 +99,7 @@ Estas etiquetas se utilizan para mostrar texto en la página web.
   <p>Este es un parrafo</p>
 ```
    
-2. `<h1> a <h6>`: Estas etiquetas se utilizan para definir los encabezados de la página, desde el título principal (h1) hasta los subtítulos (h2, h3, etc.). El número indica el nivel de importancia del encabezado. Por ejemplo, `<h1>` es el encabezado más importante y `<h6>` es el menos importante. No tienen atributos.<br>
+2. `<h1> a <h6>`: Estas etiquetas se utilizan para definir los encabezados de la página, desde el título principal (h1) hasta los subtítulos (h2, h3, etc.). El número indica el nivel de importancia del encabezado. Por ejemplo, `<h1>` es el encabezado más importante y `<h6>` es el menos importante. No tienen atributos.
 Ejemplo:
     # Titulo con `<h1>`
     ## Titulo con `<h2>`
@@ -105,39 +108,55 @@ Ejemplo:
     ##### Titulo con `<h5>`
     ###### Titulo con `<h6>`
     Cabe aclarar que en una sola pagina no debe haber mas de una etiqueta `<h1>`, esto se hace por buenas práticas ya que eso afectaria  el `SEO` de la página.
+    <br>
 
 3. `<strong>`: Esta etiqueta se utiliza para enfatizar un texto y hacerlo más fuerte. Por defecto, el texto se muestra en negrita. No tiene atributos.
-   
+
    ```html
       <p>Este texto está en <strong> Negrita </strong> </p>
    ```
    Este texto está en **Negrita**
+   <br>
 
 4. `<em>`: Esta etiqueta se utiliza para enfatizar un texto y hacerlo más importante. Por defecto, el texto se muestra en cursiva. No tiene atributos.
+
    ```html
       <p>Este texto está en <em> Cursiva </em> </p>
    ```
-   Este texto está cursiva *Cursiva*
+   Este texto está en *Cursiva*
+   <br>
 
 5. `<u>`: Esta etiqueta se utiliza para subrayar un texto. No se recomienda su uso porque se confunde con un enlace hipertexto. No tiene atributos.
     ```html
       <p>Este texto está <em> Subrayado </em> </p>
    ```
    Este texto está <u>Subrayado</u>
+   <br>
 
 6. `<br>`: Esta etiqueta se utiliza para insertar un salto de línea en el texto. No tiene atributos.
+<br>
    
 7. `<hr>`: Esta etiqueta se utiliza para insertar una línea horizontal en la página. Es útil para separar secciones de contenido. Los atributos que puede tener son `align`, `color` y `width`.
 
-     - `align`: especifica la alineación horizontal de la línea horizontal en relación con el elemento contenedor. Los valores posibles son "*left*", "*right*" o "*center*". 
-     - `color`: define el color de la línea horizontal. Se puede especificar un valor de color en formato hexadecimal o en nombres de colores predefinidos como "*red*", "*green*", "*blue*", etc.
-     - `width`: establece el ancho de la línea horizontal. Se puede especificar un valor en píxeles o en porcentaje.
+ - `align`: especifica la alineación horizontal de la línea horizontal en relación con el elemento contenedor. Los valores posibles son "*left*", "*right*" o "*center*". 
+ - `color`: define el color de la línea horizontal. Se puede especificar un valor de color en formato hexadecimal o en nombres de colores predefinidos como "*red*", "*green*", "*blue*", etc.
+ - `width`: establece el ancho de la línea horizontal. Se puede especificar un valor en píxeles o en porcentaje.
+<br>
 
 8. `<bloquote>`: Esta etiqueta se utiliza para citar un bloque de texto. El texto se muestra con una sangría en ambos lados. Un atributo importante que puede tener es `cite`.
    
-      - `cite`: este atributo se utiliza para especificar la fuente de la cita. Es decir, si estás citando a alguien o haciendo referencia a una fuente externa, puedes utilizar este atributo para enlazar a la fuente original. El valor del atributo debe ser una URL válida.
+  - `cite`: este atributo se utiliza para especificar la fuente de la cita. Es decir, si estás citando a alguien o haciendo referencia a una fuente externa, puedes utilizar este atributo para enlazar a la fuente original. El valor del atributo debe ser una URL válida.
   
     Es importante mencionar que el uso del atributo cite es opcional en la etiqueta `<blockquote>`. Sin embargo, si se utiliza, es importante que la URL especificada en el atributo sea una fuente válida y confiable para que los lectores puedan verificar la información citada.
+  Aquí te dejo un ejemplo de cómo usar la etiqueta `<blockquote>`:
+  ```html
+  <blockquote>
+    <p>"La verdadera felicidad no es otra cosa que la satisfacción de haber hecho todo lo que se debe y todo lo que se puede por los demás y por nosotros mismos."</p>
+    <cite>– Alejandro Magno</cite>
+  </blockquote>
+  ```
+
+<br>
 
 9. `span`: también es una etiqueta de texto importante que se utiliza para aplicar estilos a pequeñas secciones de texto o agrupar elementos de texto para aplicarles un estilo común. La etiqueta `<span>` no tiene un significado semántico en sí misma, pero se utiliza en conjunto con CSS para aplicar estilos. No tiene atributos obligatorios, pero se puede utilizar el atributo "*class*" o "*id*" para identificar el elemento y aplicarle estilos específicos con CSS.
 
@@ -147,9 +166,105 @@ Es importante mencionar que hay muchas más etiquetas de texto en HTML5, pero es
 Estas etiquetas se utilizan para insertar imágenes en la página web.
 
 1. `img`: Esta etiqueta se utiliza para insertar imágenes en la página web. El atributo `src` se utiliza para especificar la *"URL"* de la imagen que se va a mostrar. Otros atributos importantes incluyen *"alt"* *(texto alternativo que se muestra si la imagen no se puede cargar o si el usuario está usando un lector de pantalla)*, *"width"* y *"height"* *(especifican el ancho y alto de la imagen, respectivamente)*. La etiqueta `<img>` no tiene una etiqueta de cierre, ya que se considera un elemento vacío.
+Aquí te dejo un ejemplo de cómo usar la etiqueta `<img>`:
+```html
+<img src="ruta/de/la/imagen.jpg" alt="Descripción de la imagen">
+```
+<br>
 
 2. `<figure>`: Esta etiqueta se utiliza para agrupar imágenes u otros elementos multimedia junto con su descripción o leyenda. Por lo general, se utiliza junto con la etiqueta `<figcaption>` para agregar una descripción o leyenda a la imagen o elemento multimedia. Los atributos que puede tener la etiqueta `<figure>` son class e id, que se utilizan para aplicar estilos específicos a los elementos en la página web y para identificarlos mediante JavaScript o CSS.
+<br>
 
+3. `figcaption`: utiliza para agregar una descripción o leyenda a una imagen o elemento multimedia que está dentro de una etiqueta `<figure>`. Esta etiqueta debe colocarse inmediatamente después de la etiqueta `<img>` o el elemento multimedia.
 
+Los atributos que puede tener la etiqueta `<figcaption>` son class, id, que se utilizan para aplicar estilos específicos a los elementos en la página web y para identificarlos mediante JavaScript o CSS.
 
+Aquí te dejo un ejemplo de cómo usar la etiqueta `<figure>` con `<figcaption>`:
+```html
+<figure>
+  <img src="ejemplo.jpg" alt="Ejemplo">
+  <figcaption>Esta es una imagen de ejemplo</figcaption>
+</figure>
+```
 
+## Etiquetas de Enlace
+Estas etiquetas se utilizan para crear enlaces a otras páginas web o a otros recursos dentro de la página.
+
+1. `<a>`: Esta etiqueta se utiliza para crear un enlace a otra página web o a otro recurso dentro de la página actual. El atributo `"href"` especifica la dirección *URL* del destino del enlace. También puede tener otros atributos como `"target"` para indicar si el enlace debe abrirse en una nueva pestaña o ventana del navegador, y `"title"` para proporcionar información adicional sobre el enlace. Ejemplo:
+```html
+<a href="https://www.ejemplo.com" target="_blank" title="Enlace de ejemplo">Visita Ejemplo.com</a>
+```
+<br>
+
+2. `<link>`: Esta etiqueta se utiliza para enlazar un documento externo con la página actual, como una hoja de estilos *CSS*. El atributo `"href"` especifica la dirección *URL* del documento externo y el atributo `"rel"` especifica la relación entre el documento actual y el documento externo. Ejemplo: 
+```html
+<link rel="stylesheet" href="estilos.css">
+```
+<br>
+
+3. `<nav>`: Esta etiqueta se utiliza para definir una sección de navegación en la página web. Se puede utilizar para crear menús de navegación. Ejemplo: 
+```html
+<nav>
+  <ul>
+    <li><a href="inicio.html">Inicio</a></li>
+    <li><a href="servicios.html">Servicios</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+</nav>
+```
+
+## Etiquetas de Lista
+Estas etiquetas se utilizan para crear listas de elementos, ya sea numeradas o sin numerar.
+
+1. `<ul>`: Esta etiqueta se utiliza para crear una lista sin numerar. Los elementos de la lista se indican con la etiqueta `<li>`. Los atributos que puede tener son *class* e *id*. Ejemplo:
+```html
+<ul>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+</ul>
+```
+<br>
+
+2. `<ol>`: Esta etiqueta se utiliza para crear una lista numerada. Los elementos de la lista se indican con la etiqueta `<li>`. Los atributos que puede tener son *start*, *type*, *class* e *id*.
+```html
+<ol>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+</ol>
+```
+- `start` se utiliza en las etiquetas `<ol>` para establecer el número de inicio de la lista numerada. Por ejemplo, si se establece *"start"* en *"3"*, la lista comenzará en el número 3 en lugar del número 1. Este atributo acepta valores numéricos positivos.
+
+- `type` también se utiliza en las etiquetas `<ol>` para especificar el tipo de numeración que se usará. Hay diferentes valores que se pueden utilizar, como *"1"* (para números arábigos), *"a"* (para letras minúsculas), *"A"* (para letras mayúsculas), *"i"* (para números romanos en minúsculas), *"I"* (para números romanos en mayúsculas), entre otros. Por ejemplo, para crear una lista numerada con letras mayúsculas, se puede establecer `type` en *"A"*. Para las etiquetas `<ul>`, el atributo `type` no tiene ningún efecto y no se recomienda su uso. Ejemplo:
+```html
+<ol start="3" type="A">
+  <li>Elemento 3A</li>
+  <li>Elemento 3B</li>
+  <li>Elemento 3C</li>
+</ol>
+```
+<br>
+
+3. `<li>`: Esta etiqueta se utiliza para indicar un elemento de una lista `<ul>` o `<ol>`. No puede ser utilizada fuera de estas etiquetas. Los atributos que puede tener son value, class e id. Ejemplo:
+```html
+<ol>
+  <li value="10">Item 1</li>
+  <li>Item 2</li>
+  <li value="20">Item 3</li>
+</ol>
+```
+En este ejemplo, el primer elemento de la lista tiene un valor de *10*, el segundo elemento sigue con un valor de *11* *(por defecto)* y el tercer elemento tiene un valor de *20*.
+
+## Etiquetas de Formulario
+Estas etiquetas se utilizan para crear formularios que permiten a los usuarios enviar información a través de la página web.
+
+1. `<form>`: Esta etiqueta se utiliza para crear un formulario en la página web. Sus atributos más comunes son `action`, `method` y `enctype`. El atributo `action` especifica la página a la que se enviará el formulario. El atributo `method` especifica el método *HTTP* que se utilizará para enviar los datos del formulario. El atributo `enctype` especifica el tipo de codificación que se utilizará para enviar los datos del formulario. Ejemplo:
+```html
+<form action="procesar.php" method="POST" enctype="multipart/form-data">
+  <!-- elementos del formulario -->
+</form>
+```
+<br>
+
+2. `<input>`: Esta etiqueta se utiliza para crear diferentes tipos de campos de entrada de datos en un formulario, tiene un atributo llamado `type`, Algunos de los valores que puede tomar el atributo `type` son *text*, *password*, *checkbox*, *radio*, *submit*, *reset*, *file* y *hidden*.
