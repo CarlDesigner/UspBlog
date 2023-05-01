@@ -16,6 +16,9 @@ tags: [html5, web development, programmer]
 
 En este tutorial, aprenderás todo lo que necesitas saber para crear sitios web utilizando el lenguaje de marcado HTML5. Desde las etiquetas básicas hasta las más avanzadas, te guiaré a través de los conceptos esenciales que necesitas conocer para comenzar tu viaje en el desarrollo web.
 
+
+### Introducción
+
 **HTML** (*HyperText Markup Language*) es un lenguaje de marcado utilizado para estructurar y dar formato al contenido de una página web, fue creado por **Tim Berners-Lee** y su equipo en el **CERN** (Organización Europea para la Investigación Nuclear) a principios de la década de 1990. La primera especificación de HTML se publicó en 1993 como una propuesta para un lenguaje de marcado de hipertexto estándar. Con **HTML,** puedes crear textos, imágenes, enlaces, listas y muchos otros elementos que componen una página web. Además, con **HTML5**, se han introducido nuevas etiquetas semánticas que te permiten crear sitios web más accesibles y fáciles de entender para los motores de búsqueda.
 
 En esta guía, nos centraremos en las etiquetas **HTML5** más importantes, incluyendo las etiquetas semánticas y las más utilizadas. Comenzaremos por aprender los conceptos básicos de **HTML** y cómo crear una página web desde cero. A lo largo del camino, te daremos consejos y ejemplos para que puedas comprender y aplicar cada etiqueta y atributo correctamente.
@@ -268,3 +271,234 @@ Estas etiquetas se utilizan para crear formularios que permiten a los usuarios e
 <br>
 
 2. `<input>`: Esta etiqueta se utiliza para crear diferentes tipos de campos de entrada de datos en un formulario, tiene un atributo llamado `type`, Algunos de los valores que puede tomar el atributo `type` son *text*, *password*, *checkbox*, *radio*, *submit*, *reset*, *file* y *hidden*.
+   
+- **type="text"**: Este valor se utiliza para crear un campo de texto normal, en el que el usuario puede escribir texto.
+- **type="password"**: Este valor se utiliza para crear un campo de contraseña, en el que el texto se muestra oculto mientras se escribe.
+- **type="checkbox"**: Este valor se utiliza para crear una casilla de verificación, en la que el usuario puede seleccionar o deseleccionar una opción.
+- **type="radio"**: Este valor se utiliza para crear un botón de opción, en el que el usuario puede seleccionar una opción de varias opciones exclusivas.
+- **type="submit"**: Este valor se utiliza para crear un botón de envío, que se utiliza para enviar los datos del formulario al servidor.
+- **type="reset"**: Este valor se utiliza para crear un botón de restablecimiento, que se utiliza para borrar los datos del formulario.
+- **type="file"**: Este valor se utiliza para permitir al usuario seleccionar y cargar un archivo desde su computadora.
+- **type="hidden"**: Este valor se utiliza para crear un campo oculto que no es visible para el usuario, pero que puede ser enviado junto con otros datos del formulario al servidor.
+  
+<br>
+
+3. `<label>`: Esta etiqueta se utiliza para etiquetar un campo de entrada de datos en un formulario. Se asocia con un campo de entrada mediante el atributo *for* que debe tener el mismo valor que el atributo *id* del campo de entrada. Ejemplo:
+```html
+<label for="nombre">Nombre:</label>
+<input type="text" name="nombre" id="nombre">
+```
+<br>
+
+4. `<textarea>`: Esta etiqueta se utiliza para crear un campo de entrada de texto de varias líneas en un formulario. El número de filas y columnas del campo se puede especificar mediante los atributos *rows* y *cols*. Ejemplo:
+```html
+<textarea name="comentarios" rows="5" cols="30">Introduce tus comentarios aquí</textarea>
+```
+<br>
+
+5. `<button>`: Esta etiqueta se utiliza para crear un botón en un formulario. El atributo *type* especifica el tipo de botón que se creará (por ejemplo, *submit* o *reset*). Ejemplo:
+```html
+<button type="submit" name="submit">Enviar</button>
+```
+<br>
+
+## Etiquetas Semánticas
+Estas son las etiquetas HTML5 que se utilizan para dar significado y estructura semántica al contenido de una página web
+
+1. `<header>`: Esta etiqueta se utiliza para identificar la sección de encabezado de una página web o de una sección de contenido. Suele incluir el logo y la navegación principal. Algunos de los atributos que puede tener son *class* y *id*. Ejemplo:
+```html
+<header>
+  <img src="logo.png" alt="Logo de la página">
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Acerca de</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+```
+<br>
+
+2. `<nav>`: Esta etiqueta se utiliza para identificar la sección de navegación de una página web o de una sección de contenido. Suele incluir enlaces a otras secciones de la página o a otras páginas relacionadas. Algunos de los atributos que puede tener son *class* y *id*.
+Ejemplo:
+```html
+<nav>
+  <ul>
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">Acerca de</a></li>
+    <li><a href="#">Contacto</a></li>
+  </ul>
+</nav>
+```
+<br>
+
+3. `<section>`: Esta etiqueta se utiliza para agrupar contenido relacionado en una página web. Puede ser una sección de contenido, un capítulo de un libro, una sección de noticias, etc. Algunos de los atributos que puede tener son *class* y *id*.
+Ejemplo:
+```html
+<section>
+  <h2>Sección de noticias</h2>
+  <article>
+    <h3>Título de la noticia</h3>
+    <p>Contenido de la noticia</p>
+  </article>
+  <article>
+    <h3>Título de otra noticia</h3>
+    <p>Contenido de la otra noticia</p>
+  </article>
+</section>
+```
+<br>
+
+4. `<article>`: Esta etiqueta se utiliza para identificar un contenido independiente, como un artículo, una entrada de blog, un comentario, etc. Debe tener sentido por sí solo y puede ser distribuido o reutilizado independientemente del resto de la página. Algunos de los atributos que puede tener son *class* y *id*.
+Ejemplo:
+```html
+<article>
+  <h2>Título del artículo</h2>
+  <p>Contenido del artículo</p>
+  <p>Autor: Juan Pérez</p>
+  <time datetime="2022-04-30">30 de abril de 2022</time>
+</article>
+```
+<br>
+
+5. `<aside>`: Esta etiqueta se utiliza para identificar contenido relacionado o complementario al contenido principal de una página web. Puede incluir publicidad, enlaces a contenido relacionado, una barra lateral, etc. Algunos de los atributos que puede tener son *class* y *id*.
+Ejemplo:
+```html
+<article>
+  <h2>Título del artículo</h2>
+  <p>Contenido del artículo</p>
+  <aside>
+    <h3>Artículos relacionados</h3>
+    <ul>
+      <li><a href="#">Artículo relacionado 1</a></li>
+      <li><a href="#">Artículo relacionado 2</a></li>
+      <li><a href="#">Artículo relacionado 3</a></li>
+    </ul>
+  </aside>
+</article>
+```
+<br>
+
+6. `<footer>`: Esta etiqueta se utiliza para definir el pie de página de una página web. El pie de página generalmente incluye información de contacto, derechos de autor y enlaces a otras páginas. Los atributos que puede tener son *global attributes*.
+Ejemplo:
+```html
+<footer>
+   <p>Derechos de autor © 2023 - Mi sitio web</p>
+   <nav>
+      <ul>
+         <li><a href="contacto.html">Contacto</a></li>
+         <li><a href="acerca.html">Acerca de</a></li>
+      </ul>
+   </nav>
+</footer>
+```
+<br>
+
+7. `<main>`: Esta etiqueta se utiliza para indicar la sección principal o el contenido principal de una página web. Es importante incluir esta etiqueta para mejorar la accesibilidad y la estructura semántica de la página. Algunos de sus atributos son *id* y *class*. Ejemplo:
+```html
+<body>
+  <header>
+    <!-- encabezado de la página -->
+  </header>
+  
+  <main>
+    <!-- contenido principal de la página -->
+  </main>
+
+  <footer>
+    <!-- pie de la página -->
+  </footer>
+</body>
+```
+<br>
+¡Listo! Ya hemos concluido con la explicación de las etiquetas de HTML5. Espero que esta información haya sido útil y te haya permitido comprender mejor cómo utilizar estas etiquetas para crear páginas web estructuradas y semánticas.
+
+## Conclusión
+En conclusión, las etiquetas **HTML** son elementos fundamentales en la creación de una página web. Cada etiqueta tiene una función específica y, en conjunto, permiten crear una estructura coherente y organizada para el contenido de la página. Las etiquetas de texto permiten mostrar y dar formato al contenido de la página, mientras que las etiquetas de imagen y enlace permiten añadir elementos visuales y enlazar a otras páginas o recursos. Las etiquetas de lista, formulario y tabla permiten organizar el contenido de manera más específica y permiten al usuario interactuar con la página.
+
+Además, con la introducción de las etiquetas semánticas en **HTML5**, se ha logrado dar un significado más claro y estructurado al contenido de la página, lo que ayuda a los motores de búsqueda a indexar el contenido de manera más precisa y a mejorar la accesibilidad de la página para personas con discapacidades.
+
+Es importante tener en cuenta que las etiquetas **HTML** deben utilizarse de manera correcta y coherente para garantizar que la página web sea legible, accesible y fácil de mantener. Se deben seguir buenas prácticas de diseño y desarrollo web para crear una página web eficiente, rápida y amigable para el usuario.
+
+A continuación un ejemplo de la estructura de una pagina web utilizando algunas de las etiquetas **HTML5** que hemos visto anteriormente
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi primera página web</title>
+</head>
+<body>
+  <header>
+    <h1>Encabezado de mi página</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Productos destacados</h2>
+      <ul>
+        <li>
+          <figure>
+            <img src="producto1.jpg" alt="Producto 1">
+            <figcaption>Producto 1</figcaption>
+          </figure>
+          <p>Descripción del producto 1</p>
+        </li>
+        <li>
+          <figure>
+            <img src="producto2.jpg" alt="Producto 2">
+            <figcaption>Producto 2</figcaption>
+          </figure>
+          <p>Descripción del producto 2</p>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Formulario de contacto</h2>
+      <form action="enviar.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <aside>
+    <h2>Información adicional</h2>
+    <p>Texto de ejemplo para la sección de información adicional.</p>
+  </aside>
+
+  <footer>
+    <p>Derechos de autor © 2022 Mi empresa. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+```
+<br>
+
+Espero que hayan disfrutado de esta guia de **HTML5** y el ejemplo de la página web que hemos creado juntos usando algunas de las etiquetas de **HTML** que hemos aprendido. Pero esto es solo el comienzo, ya que seguiremos publicando más contenido relacionado con **HTML** en el futuro.
+
+Estén atentos a nuestros próximos artículos donde compartiremos algunos trucos y consejos para mejorar en **HTML** y también publicaremos una guía para aprender a estilizar **HTML** con **CSS3**.
+
+¡Manténganse conectados devs! :sunglasses:
+
+>Nunca pares de aprender, siempre hay algo nuevo que descubrir y mejorar en tu camino como desarrollador web.
