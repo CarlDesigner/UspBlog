@@ -1,7 +1,7 @@
 ---
 title: "Piloto"
 excerpt: "Piloto de prueba."
-publishDate: "2023-03-27T11:39:36.050Z"
+publishDate: "2023-04-01T11:39:36.050Z"
 image: "https://res.cloudinary.com/do66lfayc/image/upload/v1678234763/BlogUsp/pilot_em6kql.webp"
 category: "test"
 author: "carlos-fajardo"

@@ -1,7 +1,7 @@
 ---
 title: "6 Consejos para aprender a programar si eres autodidacta"
 excerpt: "Some description"
-publishDate: "2023-04-02T11:39:36.050Z"
+publishDate: "2023-04-08T11:39:36.050Z"
 image: "https://res.cloudinary.com/do66lfayc/image/upload/v1680473622/BlogUsp/6consejos_mdbqs3.jpg"
 # category slug: choose from "./src/data/category.js"
 category: "technology"

@@ -1,7 +1,7 @@
 ---
 title: "Aprende HTML5 de una vez por todas"
 excerpt: "Guia para aprender HTML5"
-publishDate: "2023-04-12T11:39:36.050Z"
+publishDate: "2023-04-30T11:39:36.050Z"
 image: "https://res.cloudinary.com/do66lfayc/image/upload/v1681318858/BlogUsp/aprendehtml5_zq6d5u.jpg"
 # category slug: choose from "./src/data/category.js"
 category: "web-development"
@@ -499,6 +499,6 @@ Espero que hayan disfrutado de esta guia de **HTML5** y el ejemplo de la página
 
 Estén atentos a nuestros próximos artículos donde compartiremos algunos trucos y consejos para mejorar en **HTML** y también publicaremos una guía para aprender a estilizar **HTML** con **CSS3**.
 
-¡Manténganse conectados devs! :sunglasses:
+¡Manténganse conectados devs!
 
 >Nunca pares de aprender, siempre hay algo nuevo que descubrir y mejorar en tu camino como desarrollador web.
