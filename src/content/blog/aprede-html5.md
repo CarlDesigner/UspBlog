@@ -92,7 +92,7 @@ Es importante tener en cuenta que estas etiquetas básicas son la base de cualqu
   </body>
 </html>
 ```
-Continuemos...:metal::rocket:
+Continuemos...
 ## Etiquetas de Texto
 Estas etiquetas se utilizan para mostrar texto en la página web.
 
