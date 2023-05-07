@@ -25,7 +25,7 @@ En esta guía, nos centraremos en las etiquetas **HTML5** más importantes, incl
 
 La creación de páginas web es una habilidad cada vez más importante en la era digital en la que vivimos. Para ello, es fundamental conocer el lenguaje de marcado **HTML5**, el cual nos permite estructurar el contenido de nuestras páginas y definir su apariencia visual. Sin embargo, aprender todas las etiquetas de **HTML5** de una sola vez puede ser abrumador, especialmente para aquellos que son nuevos en el desarrollo web. Es por eso que en esta guía, nos centraremos en presentar las etiquetas **HTML5** de manera organizada y lógica, agrupándolas por categorías o tipos. En este sentido, veremos las etiquetas semánticas, las más comunes y las que se utilizan para multimedia, formularios y tablas, de manera que al finalizar tendrás una comprensión sólida de las etiquetas **HTML5** y podrás empezar a crear tus propias páginas web.
 
-*¡Asi que...Comencemos con HTML y construyamos juntos una web más hermosa y funcional!*
+*¡Asi que...Comencemos con HTML y construyamos juntos una web más hermosa y funcional!* 🚀
 
 ---
 
@@ -52,7 +52,7 @@ Por ejemplo, si quisieras crear un párrafo con un estilo CSS personalizado, pod
 ```
 
 
-## Etiquetas Básicas
+## Etiquetas Básicas <⁄>
 Estas son las etiquetas más fundamentales en HTML y son necesarias para cualquier página web. 
 
 1. `<!DOCTYPE hmtl>`: Esta etiqueta define la versión del lenguaje de marcado que se está utilizando en la página web. No tiene atributos.
@@ -93,7 +93,7 @@ Es importante tener en cuenta que estas etiquetas básicas son la base de cualqu
 </html>
 ```
 Continuemos...
-## Etiquetas de Texto
+## Etiquetas de Texto 📝
 Estas etiquetas se utilizan para mostrar texto en la página web.
 
 1. `<p>`:  Esta etiqueta se utiliza para definir un párrafo de texto. Es la forma más común de presentar texto en una página web. No tiene atributos, ejemplo:
@@ -165,7 +165,7 @@ Ejemplo:
 
 Es importante mencionar que hay muchas más etiquetas de texto en HTML5, pero estas son algunas de las más utilizadas.
 
-## Etiquetas de Imagen
+## Etiquetas de Imagen 📷
 Estas etiquetas se utilizan para insertar imágenes en la página web.
 
 1. `img`: Esta etiqueta se utiliza para insertar imágenes en la página web. El atributo `src` se utiliza para especificar la *"URL"* de la imagen que se va a mostrar. Otros atributos importantes incluyen *"alt"* *(texto alternativo que se muestra si la imagen no se puede cargar o si el usuario está usando un lector de pantalla)*, *"width"* y *"height"* *(especifican el ancho y alto de la imagen, respectivamente)*. La etiqueta `<img>` no tiene una etiqueta de cierre, ya que se considera un elemento vacío.
@@ -190,7 +190,7 @@ Aquí te dejo un ejemplo de cómo usar la etiqueta `<figure>` con `<figcaption>`
 </figure>
 ```
 
-## Etiquetas de Enlace
+## Etiquetas de Enlace 🔗
 Estas etiquetas se utilizan para crear enlaces a otras páginas web o a otros recursos dentro de la página.
 
 1. `<a>`: Esta etiqueta se utiliza para crear un enlace a otra página web o a otro recurso dentro de la página actual. El atributo `"href"` especifica la dirección *URL* del destino del enlace. También puede tener otros atributos como `"target"` para indicar si el enlace debe abrirse en una nueva pestaña o ventana del navegador, y `"title"` para proporcionar información adicional sobre el enlace. Ejemplo:
@@ -216,7 +216,7 @@ Estas etiquetas se utilizan para crear enlaces a otras páginas web o a otros re
 </nav>
 ```
 
-## Etiquetas de Lista
+## Etiquetas de Lista 📌
 Estas etiquetas se utilizan para crear listas de elementos, ya sea numeradas o sin numerar.
 
 1. `<ul>`: Esta etiqueta se utiliza para crear una lista sin numerar. Los elementos de la lista se indican con la etiqueta `<li>`. Los atributos que puede tener son *class* e *id*. Ejemplo:
@@ -259,7 +259,7 @@ Estas etiquetas se utilizan para crear listas de elementos, ya sea numeradas o s
 ```
 En este ejemplo, el primer elemento de la lista tiene un valor de *10*, el segundo elemento sigue con un valor de *11* *(por defecto)* y el tercer elemento tiene un valor de *20*.
 
-## Etiquetas de Formulario
+## Etiquetas de Formulario 📑
 Estas etiquetas se utilizan para crear formularios que permiten a los usuarios enviar información a través de la página web.
 
 1. `<form>`: Esta etiqueta se utiliza para crear un formulario en la página web. Sus atributos más comunes son `action`, `method` y `enctype`. El atributo `action` especifica la página a la que se enviará el formulario. El atributo `method` especifica el método *HTTP* que se utilizará para enviar los datos del formulario. El atributo `enctype` especifica el tipo de codificación que se utilizará para enviar los datos del formulario. Ejemplo:
@@ -302,7 +302,7 @@ Estas etiquetas se utilizan para crear formularios que permiten a los usuarios e
 ```
 <br>
 
-## Etiquetas Semánticas
+## Etiquetas Semánticas 🤔
 Estas son las etiquetas HTML5 que se utilizan para dar significado y estructura semántica al contenido de una página web
 
 1. `<header>`: Esta etiqueta se utiliza para identificar la sección de encabezado de una página web o de una sección de contenido. Suele incluir el logo y la navegación principal. Algunos de los atributos que puede tener son *class* y *id*. Ejemplo:
@@ -414,7 +414,7 @@ Ejemplo:
 <br>
 ¡Listo! Ya hemos concluido con la explicación de las etiquetas de HTML5. Espero que esta información haya sido útil y te haya permitido comprender mejor cómo utilizar estas etiquetas para crear páginas web estructuradas y semánticas.
 
-## Conclusión
+## Conclusión ✅
 En conclusión, las etiquetas **HTML** son elementos fundamentales en la creación de una página web. Cada etiqueta tiene una función específica y, en conjunto, permiten crear una estructura coherente y organizada para el contenido de la página. Las etiquetas de texto permiten mostrar y dar formato al contenido de la página, mientras que las etiquetas de imagen y enlace permiten añadir elementos visuales y enlazar a otras páginas o recursos. Las etiquetas de lista, formulario y tabla permiten organizar el contenido de manera más específica y permiten al usuario interactuar con la página.
 
 Además, con la introducción de las etiquetas semánticas en **HTML5**, se ha logrado dar un significado más claro y estructurado al contenido de la página, lo que ayuda a los motores de búsqueda a indexar el contenido de manera más precisa y a mejorar la accesibilidad de la página para personas con discapacidades.
@@ -495,10 +495,10 @@ A continuación un ejemplo de la estructura de una pagina web utilizando algunas
 ```
 <br>
 
-Espero que hayan disfrutado de esta guia de **HTML5** y el ejemplo de la página web que hemos creado juntos usando algunas de las etiquetas de **HTML** que hemos aprendido. Pero esto es solo el comienzo, ya que seguiremos publicando más contenido relacionado con **HTML** en el futuro.
+Espero que hayan disfrutado de esta guia de **HTML5** y el ejemplo de la página web que hemos creado juntos usando algunas de las etiquetas de **HTML** que hemos aprendido. Pero esto es solo el comienzo, ya que seguiremos publicando más contenido relacionado con **HTML** en el futuro. 🚀
 
 Estén atentos a nuestros próximos artículos donde compartiremos algunos trucos y consejos para mejorar en **HTML** y también publicaremos una guía para aprender a estilizar **HTML** con **CSS3**.
 
-¡Manténganse conectados devs!
+¡Manténganse conectados devs! 🔌 👥 
 
 >Nunca pares de aprender, siempre hay algo nuevo que descubrir y mejorar en tu camino como desarrollador web.
